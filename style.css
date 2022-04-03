@@ -49,6 +49,12 @@ color: var(--very-dark-magenta);
     margin-bottom: 10px;
     text-align: left;
 }
+
+.profile-pic {
+    border-radius: 50px;
+    width: 40px;
+}
+
 .verified {
     color: var(--soft-pink);
 }
