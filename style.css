@@ -17,63 +17,67 @@ body {
 	margin: 30px;
 	min-height: 100vh;
 	font-size: 15px;
-    text-align: center;
+	text-align: center;
 }
 
 h1 {
-color: var(--very-dark-magenta);
+	color: var(--very-dark-magenta);
 }
 
 /*styling of h1 and top blurb below*/
 
 .top-blurb {
-    color: var(--dark-grayish-magenta);
-    font-weight: 500;
+	color: var(--dark-grayish-magenta);
+	font-weight: 500;
 }
 
 /*5 star cards styling below*/
 
-.reviews, .reports, .best-tech {
-    background-color: var(--light-gray-magenta);
-    color: var(--very-dark-magenta);
-    font-weight: 700;
+.reviews,
+.reports,
+.best-tech {
+	background-color: var(--light-gray-magenta);
+	color: var(--very-dark-magenta);
+	font-weight: 700;
 }
 
 /* review cards styling below*/
 
-.colton-review-card, .irene-review-card, .anne-review-card {
-    background-color: var(--very-dark-magenta);
-    color: var(--white);
-    border-radius: 6px;
-    padding: 30px;
-    margin-bottom: 10px;
-    text-align: left;
+.colton-review-card,
+.irene-review-card,
+.anne-review-card {
+	background-color: var(--very-dark-magenta);
+	color: var(--white);
+	border-radius: 6px;
+	padding: 30px;
+	margin-bottom: 10px;
+	text-align: left;
 }
 
 .top-card-info {
-    display: flex;
+	display: flex;
 }
 
 .name {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
 }
 
 .profile-pic {
-    border-radius: 50px;
-    width: 40px;
+	border-radius: 50px;
+	width: 40px;
 }
 
 .verified {
-    color: var(--soft-pink);
+	color: var(--soft-pink);
 }
 /*footer styling*/
 .attribution {
 	font-size: 11px;
 	text-align: center;
-    color: var(--very-dark-magenta);
-    font-weight: 700;
+	color: var(--very-dark-magenta);
+	font-weight: 700;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
