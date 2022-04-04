@@ -24,11 +24,17 @@ h1 {
 	color: var(--very-dark-magenta);
 }
 
+p {
+	margin-bottom: 0;
+}
+
 /*styling of h1 and top blurb below*/
 
 .top-blurb {
 	color: var(--dark-grayish-magenta);
 	font-weight: 500;
+	line-height: 1.5rem;
+	margin-bottom: 40px;
 }
 
 /*5 star cards styling below*/
@@ -39,6 +45,9 @@ h1 {
 	background-color: var(--light-gray-magenta);
 	color: var(--very-dark-magenta);
 	font-weight: 700;
+	padding: 16px;
+	margin-top: 15px;
+	border-radius: 8px;
 }
 
 /* review cards styling below*/
@@ -48,10 +57,15 @@ h1 {
 .anne-review-card {
 	background-color: var(--very-dark-magenta);
 	color: var(--white);
-	border-radius: 6px;
+	border-radius: 8px;
 	padding: 30px;
 	margin-bottom: 10px;
 	text-align: left;
+	font-size: 13px;
+}
+
+.colton-review-card {
+	margin-top: 50px;
 }
 
 .top-card-info {
@@ -62,6 +76,8 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	margin-left: 20px;
+	position: relative;
+	top: 5px;
 }
 
 .profile-pic {
@@ -71,6 +87,11 @@ h1 {
 
 .verified {
 	color: var(--soft-pink);
+	margin-top: 5px;
+}
+
+.review-blurb {
+	line-height: 1.5rem;
 }
 /*footer styling*/
 .attribution {
@@ -78,6 +99,7 @@ h1 {
 	text-align: center;
 	color: var(--very-dark-magenta);
 	font-weight: 700;
+	margin-top: 30px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
