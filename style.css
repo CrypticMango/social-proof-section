@@ -110,7 +110,6 @@ p {
 }
 
 @media (min-width: 1000px) {
-
 	/*desktop genreal element stylings*/
 
 	body {
@@ -121,14 +120,16 @@ p {
 		font-weight: 700;
 		font-size: 50px;
 		padding-right: 180px;
-		margin: 0px; 
+		margin: 0px;
 	}
 
-	h1, .top-blurb {
+	h1,
+	.top-blurb {
 		text-align: left;
 	}
-	
-	.desktop-top-portion, .review-cards {
+
+	.desktop-top-portion,
+	.review-cards {
 		display: flex;
 		flex-direction: row;
 	}
@@ -151,7 +152,7 @@ p {
 
 	/*desktop top right portion*/
 
-	.review-cards{
+	.review-cards {
 		width: 100%;
 	}
 
@@ -163,7 +164,9 @@ p {
 		margin-right: 5px;
 	}
 
-	.reviews, .reports, .best-tech {
+	.reviews,
+	.reports,
+	.best-tech {
 		display: flex;
 		flex-direction: row;
 	}
