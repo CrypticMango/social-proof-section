@@ -80,6 +80,10 @@ p {
 	top: 5px;
 }
 
+.reviewer-name {
+	font-weight: 700;
+}
+
 .profile-pic {
 	border-radius: 50px;
 	width: 40px;
@@ -107,15 +111,17 @@ p {
 
 @media (min-width: 1000px) {
 
+	/*desktop genreal element stylings*/
+
 	body {
-		margin: 0px 120px;
+		margin: 0px 150px;
 	}
 
 	h1 {
 		font-weight: 700;
-		font-size: 36px;
+		font-size: 50px;
 		padding-right: 180px;
-		margin-bottom: 0px;
+		margin: 0px; 
 	}
 
 	h1, .top-blurb {
@@ -127,12 +133,13 @@ p {
 		flex-direction: row;
 	}
 
+	/*desktop top left portion*/
+
 	.top-blurb {
-		padding-right: 100px;
+		padding-right: 125px;
 		margin-top: 5px;
-		font-size: 12px;
-		font-weight: 300px;
-		line-height: 1.2rem;
+		font-size: 15px;
+		line-height: 1.5rem;
 	}
 
 	.left-info {
@@ -142,11 +149,46 @@ p {
 		width: 50%;
 	}
 
+	/*desktop top right portion*/
+
 	.review-cards{
 		width: 100%;
 	}
 
+	.five-star-words {
+		margin: 0px 0px 0px 35px;
+	}
+
+	.star-pic {
+		margin-right: 5px;
+	}
+
+	.reviews, .reports, .best-tech {
+		display: flex;
+		flex-direction: row;
+	}
+
+	/*desktop bottom review cards*/
+
+	.review-blurb {
+		font-size: 10px;
+		line-height: 17px;
+	}
+
+	.name {
+		font-size: 10px;
+	}
+
+	.reviewer-name {
+		font-weight: 700;
+	}
+
 	.colton-review-card {
 		margin-top: 0px;
+		margin-right: 30px;
+	}
+
+	.irene-review-card {
+		margin-right: 30px;
 	}
 }
