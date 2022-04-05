@@ -103,13 +103,14 @@ p {
 	text-align: center;
 	color: var(--very-dark-magenta);
 	font-weight: 700;
-	margin-top: 30px;
+	position: relative;
+	top: 70px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
 	/*desktop genreal element stylings*/
 
 	body {
@@ -118,8 +119,8 @@ p {
 
 	h1 {
 		font-weight: 700;
-		font-size: 50px;
-		padding-right: 180px;
+		font-size: 45px;
+		padding-right: 160px;
 		margin: 0px;
 	}
 
@@ -137,9 +138,9 @@ p {
 	/*desktop top left portion*/
 
 	.top-blurb {
-		padding-right: 125px;
+		padding-right: 120px;
 		margin-top: 5px;
-		font-size: 15px;
+		font-size: 14px;
 		line-height: 1.5rem;
 	}
 
@@ -158,6 +159,8 @@ p {
 
 	.five-star-words {
 		margin: 0px 0px 0px 35px;
+		position: relative;
+		top: 3px;
 	}
 
 	.star-pic {
@@ -169,21 +172,45 @@ p {
 	.best-tech {
 		display: flex;
 		flex-direction: row;
+		padding: 18px 60px 18px 35px;
+		font-size: 13px;
+	}
+
+	.reviews {
+		margin-top: 13px;
+	}
+
+	.reports {
+		position: relative;
+		left: 15%;
+	}
+
+	.best-tech {
+		position: relative;
+		left: 25%;
 	}
 
 	/*desktop bottom review cards*/
 
+	.review-cards {
+		margin-top: 30px;
+	}
+
 	.review-blurb {
-		font-size: 10px;
-		line-height: 17px;
+		font-size: 13px;
+		line-height: 1.4rem;
 	}
 
 	.name {
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	.reviewer-name {
 		font-weight: 700;
+	}
+
+	.colton-review-card, .irene-review-card, .anne-review-card {
+		padding: 40px;
 	}
 
 	.colton-review-card {
@@ -193,5 +220,12 @@ p {
 
 	.irene-review-card {
 		margin-right: 30px;
+		position: relative;
+		top: 20px;
+	}
+
+	.anne-review-card {
+		position: relative;
+		top: 40px;
 	}
 }
