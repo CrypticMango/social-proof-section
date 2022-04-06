@@ -119,9 +119,10 @@ p {
 
 	body {
 		margin: 0px 150px;
-		background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+		background-image: url(/images/bg-pattern-top-desktop.svg) , url(/images/bg-pattern-bottom-desktop.svg);
+		
 	}
-
+	
 	h1 {
 		font-weight: 700;
 		font-size: 45px;
