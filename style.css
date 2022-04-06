@@ -119,6 +119,8 @@ p {
 
 	body {
 		margin: 0px 150px;
+		background-color: rgba(0, 255, 255, 0.377);
+		background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
 	}
 
 	h1 {
