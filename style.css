@@ -6,7 +6,7 @@
 	--white: hsl(0, 0%, 100%);
 }
 
-/* styling of general elements below*/
+/* styling of general elements below */
 
 body {
 	font-family: "Spartan", sans-serif;
@@ -18,7 +18,8 @@ body {
 	min-height: 100vh;
 	font-size: 15px;
 	text-align: center;
-	background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg) bottom 0px;
+	background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+	background-position: top 0px right 0px, bottom 0px right 0px ;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
