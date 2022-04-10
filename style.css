@@ -18,10 +18,11 @@ body {
 	min-height: 100vh;
 	font-size: 15px;
 	text-align: center;
-	background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
-	background-position: top 0px right 0px, bottom 0px right 0px ;
+	background-image: url(/images/bg-pattern-top-mobile.svg) no-repeat,
+		url(/images/bg-pattern-bottom-mobile.svg) no-repeat;
+	background-position: top 0px left 0px, bottom 0px right 0px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 550px, 1100px;
 }
 
 h1 {
@@ -114,15 +115,13 @@ p {
 	color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	/*desktop genreal element stylings*/
 
 	body {
 		margin: 0px 150px;
-		background-image: url(/images/bg-pattern-top-desktop.svg) , url(/images/bg-pattern-bottom-desktop.svg);
-		
 	}
-	
+
 	h1 {
 		font-weight: 700;
 		font-size: 45px;
@@ -215,7 +214,9 @@ p {
 		font-weight: 700;
 	}
 
-	.colton-review-card, .irene-review-card, .anne-review-card {
+	.colton-review-card,
+	.irene-review-card,
+	.anne-review-card {
 		padding: 40px;
 	}
 
