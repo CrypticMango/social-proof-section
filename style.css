@@ -121,14 +121,15 @@ p {
 	body {
 		margin: 0px 150px;
 		background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
-		background-size: 550px, 1100px;
-		background-position: top 0px left 0px, bottom -30px right 0px;
+		background-size: 600px, 1100px;
+		background-position: top 0px left 0px, bottom 0px right 0px;
+		font-family: "Spartan", sans-serif;
 	}
 
 	h1 {
 		font-weight: 700;
 		font-size: 45px;
-		padding-right: 160px;
+		padding-right: 130px;
 		margin: 0px;
 	}
 
@@ -146,7 +147,7 @@ p {
 	/*desktop top left portion*/
 
 	.top-blurb {
-		padding-right: 120px;
+		padding-right: 112px;
 		margin-top: 5px;
 		font-size: 14px;
 		line-height: 1.5rem;
